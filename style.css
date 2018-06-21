@@ -1,0 +1,105 @@
+html {
+    background-color: #0b1c26;
+    color: white;
+    font-family: "Arial";
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    animation: ani 10s ease-in-out infinite;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+.graph {
+    width: 722px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.nums {
+    width: 40px;
+    height: 500px;
+    position: relative;
+    background-color: #0b1c26;
+    float: left;
+    border-right: 2px dashed white;
+}
+
+.num {
+    height: 98px;
+    width:40px;
+    border-bottom: 2px dashed white;
+}
+
+.num a {
+    position: absolute;
+    margin-top: 80px;
+}
+
+.lines {
+    height: 500px;
+    width: 680px;
+    position: relative;
+    background-color: #0b1c26;
+    float: left
+}
+
+.line {
+    width: 680px;
+    height: 99px;
+    position: absolute;
+    background-color: #0b1c26;
+    border-bottom: 2px dashed white;
+}
+
+.line1{margin-top: 0px;}
+.line2{margin-top: 100px;}
+.line3{margin-top: 200px;}
+.line4{margin-top: 300px;}
+.line5{margin-top: 400px;}
+
+.unit {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    text-align: right;
+    margin-right: auto;
+    width: 700px;
+}
+
+
+@keyframes ani {
+
+    33% { -webkit-transform: rotate(120deg)}
+    66% { -webkit-transform: rotate(240deg)}
+    100% { -webkit-transform: rotate(360deg)}
+}
+
+@-webkit-keyframes spin {
+
+    from { -webkit-transform: rotateY(0deg); }
+    to { -webkit-transform: rotateY(360deg); }
+
+}
+
